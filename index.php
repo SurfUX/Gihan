@@ -40,58 +40,8 @@
   </head>
 
   <body class="index-page">
-    <header id="header" class="header d-flex align-items-center fixed-top">
-      <div
-        class="container-fluid position-relative d-flex align-items-center justify-content-between"
-      >
-        <a href="index.html" class="logo d-flex align-items-center">
-          <!-- Uncomment the line below if you also wish to use an image logo -->
-          <!-- <img src="assets/img/logo.webp" alt=""> -->
-          <!-- Uncomment the line below if you also wish to use an text logo -->
-          <!-- <h1 class="sitename">Style</h1>  -->
-        </a>
-
-        <nav id="navmenu" class="navmenu">
-          <div class="profile-img">
-            <!-- <img src="assets/img/profile/profile-square-1.jpeg" alt="" class="img-fluid rounded-circle"> -->
-          </div>
-
-          <a
-            href="index.html"
-            class="logo d-flex align-items-center justify-content-center active"
-          >
-            <!-- Uncomment the line below if you also wish to use an image logo -->
-            <!-- <img src="assets/img/logo.webp" alt=""> -->
-            <h1 class="sitename">Gihan Supun</h1>
-          </a>
-
-          <div class="social-links text-center">
-            <!-- <a href="#" class="twitter"><i class="bi bi-twitter-x"></i></a>
-          <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-          <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-          <a href="#" class="google-plus"><i class="bi bi-skype"></i></a>
-          <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a> -->
-          </div>
-
-          <ul>
-            <li><a href="#hero">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#resume">Resume</a></li>
-            <li><a href="#portfolio">Portfolio</a></li>
-            <!-- <li><a href="#services">Services</a></li> -->
-            <!-- <li class="dropdown">
-              <a href="#"
-                ><span>Dropdown</span>
-                <i class="bi bi-chevron-down toggle-dropdown"></i
-              ></a>
-            </li> -->
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-          <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
-        </nav>
-      </div>
-    </header>
-
+   
+<?php include 'header.php'; ?>
     <main class="main">
       <!-- Hero Section -->
       <section id="hero" class="hero section">
@@ -368,6 +318,15 @@
       <!-- /About Section -->
 
       <section id="skills" class="skills section">
+        <!-- Section Title -->
+        <div class="container section-title">
+          <h2>Skills</h2>
+          <p>
+            UI/UX Engineer and Product Designer with strong technical background
+            and hands-on industry experience.
+          </p>
+        </div>
+        <!-- End Section Title -->
         <div
           class="container aos-init aos-animate"
           data-aos="fade-up"
@@ -770,7 +729,7 @@
                         <h3>Senior UI/UX Engineer</h3>
                         <h4>Optimo</h4>
                       </div>
-                      <span class="duration">Nov 2023 - Present</span>
+                      <span class="duration">Dec 2023 - Present</span>
                     </div>
                     <div class="card-body">
                       <p>Sydney, Australia</p>
@@ -818,7 +777,7 @@
                         <h3>Senior UI/UX Engineer & Senior Product Designer</h3>
                         <h4>i4T Labs</h4>
                       </div>
-                      <span class="duration">2022 - 2024</span>
+                      <span class="duration">Dec 2021 - Jul 2023</span>
                     </div>
                     <div class="card-body">
                       <p>Colombo 02, Sri Lanka</p>
@@ -864,7 +823,7 @@
                         <h3>UI/UX Engineer</h3>
                         <h4>JRC Software</h4>
                       </div>
-                      <span class="duration">2021 - 2022</span>
+                      <span class="duration">Mar 2021 - Nov 2021</span>
                     </div>
                     <div class="card-body">
                       <p>Colombo 03, Sri Lanka</p>
@@ -904,7 +863,7 @@
                         <h3>Associate UI/UX Engineer</h3>
                         <h4>Rezgateway</h4>
                       </div>
-                      <span class="duration">2019 - 2021</span>
+                      <span class="duration">Jul 2019 - Feb 2021</span>
                     </div>
                     <div class="card-body">
                       <p>Colombo 03, Sri Lanka</p>
@@ -1060,32 +1019,7 @@
       </section>
     </main>
 
-    <footer id="footer" class="footer dark-background">
-      <div class="container">
-        <div class="copyright text-center">
-          <p>
-            © <span>Copyright</span>
-            <strong class="px-1 sitename">Gihan</strong>
-            <span>All Rights Reserved</span>
-          </p>
-        </div>
-        <div class="social-links d-flex justify-content-center">
-          <a href="https://facebook.com/Gihan.Supun"
-            ><i class="bi bi-facebook"></i
-          ></a>
-          <a href="https://www.instagram.com/gihan_supun"
-            ><i class="bi bi-instagram"></i
-          ></a>
-          <a href="https://linkedin.com/in/Gihan-Supun"
-            ><i class="bi bi-linkedin"></i
-          ></a>
-        </div>
-        <div class="credits">
-          Designed with ❤️ by
-          <a target="_blank" href="https://www.surfux.com/">SurfUX</a>
-        </div>
-      </div>
-    </footer>
+ <?php include 'footer.php'; ?>
 
     <!-- Scroll Top -->
     <a
