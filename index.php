@@ -104,11 +104,17 @@
                   data-aos="fade-up"
                   data-aos-delay="300"
                 >
+                <a
+                    href="portfolio.php"
+                    
+                    class="btn btn-primary"
+                    >Portfolio</a
+                  >
                   <a
                     href="https://www.figma.com/design/AOr5jB1X8EMouRxDNuhnWn/Portfolio?node-id=0-1&t=QvaQJI4bxy44b94U-1"
                     target="_blank"
                     class="btn btn-primary"
-                    >View My Work in Figma</a
+                    >View My Works in Figma</a
                   >
                   <a href="#contact" class="btn btn-outline">Get In Touch</a>
                 </div>
