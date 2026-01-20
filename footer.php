@@ -20,7 +20,7 @@
         </div>
         <div class="credits">
           Designed with ❤️ by
-          <a target="_blank" href="https://www.surfux.com/">SurfUX</a>
+          <a target="_blank" href="https://www.surfux.com/">Gihan Supun - SurfUX</a>
         </div>
       </div>
     </footer>
